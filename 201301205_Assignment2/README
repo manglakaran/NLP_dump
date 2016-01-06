@@ -1,0 +1,30 @@
+This is the directory structure of the assignment folder.
+
+201301205_Assignment2/
+|-- 201301205_Assignment2.pdf
+|-- English
+|   |-- english_without50.py
+|   |-- english_withoutstop.py
+|   |-- english_with.py
+|   |-- english_without50.txt
+|   |-- english_withoutstop.txt
+|   |-- english_with.txt
+|  
+|-- Hindi
+|   |-- hindi_without50.py
+|   |-- hindi_without50.txt
+|   |-- hindi_withoutstop.py
+|   |-- hindi_withoutstop.txt
+|   |-- hindi_with.py
+|   |-- hindi_with.txt
+|   
+`-- README
+
+Each folder contains the three python files and their corresponding outputs for the three cases - 
+
+  1. With removing stop words from 250 feature words
+  2. Without removing stop words from 250 feature words
+  3. With taking top 50 most occurring unigrams as stop words and not including them as feature words.
+
+The *.py takes the dataset as input and after the tokens and the unigrams as produced , it gives the corresponding 50 clusters as output.
+
